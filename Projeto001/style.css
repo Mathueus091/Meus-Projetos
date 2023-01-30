@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=wap');
+
+:root {
+
+    --fonte-padrao: Arial, Sans-serif;
+    --font-tech: 'Righteous', cursiva;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBE5C5;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--font-tech);
+    font-weight: normal;
+    font-size: 3em;
+    padding-top: 50px;
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    padding-bottom: 50px;
+}
+
+nav {
+    background-color: black;
+    padding: 0px 0px 10px 0px;
+}
+
+nav a {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+    transition-duration: 1s;
+}
+
+main {
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    min-width: 400px;
+    max-width: 1300px;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.534);
+}
+
+main h2 {
+    font-family: var(--font-tech);
+    font-weight: lighter;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+main p {
+    font-family: var(--fonte-padrao);
+    text-indent: 30px;
+    line-height: 2em;
+    text-align: justify;
+    padding-bottom: 2vh;
+}
+
+main ul {
+    font-family: var(--fonte-padrao);
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px;
+    list-style-position: inside;
+    text-indent: 60px;
+    margin-bottom: 20px;
+}
+
+main ul.img01#branco {
+    color: white;
+    font-size: 1.2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-image: url(imgs/imagem03.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+main ul.img02 {
+    font-size: 1.2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-image: url(imgs/imagem01.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+main picture > img {
+    display: block;
+    min-width: 200px;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main ul.diferente {
+    background-color: white;
+    line-height: 2em;
+}
+
+main ul > li {
+    padding-bottom: 10px;
+}
+
+p a.link {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+main p a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+footer {
+    font-family: var(--fonte-padrao);
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
