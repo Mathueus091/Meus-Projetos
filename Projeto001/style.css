@@ -54,7 +54,7 @@ a:hover {
     color: black;
     border-radius: 4px;
     padding: 10px;
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 main {
@@ -62,7 +62,7 @@ main {
     margin: auto;
     background-color: white;
     padding: 20px;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 1300px;
     margin-bottom: 50px;
     border-radius: 0px 0px 10px 10px;
