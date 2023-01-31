@@ -62,7 +62,7 @@ main {
     margin: auto;
     background-color: white;
     padding: 20px;
-    min-width: 300px;
+    min-width: 200px;
     max-width: 1300px;
     margin-bottom: 50px;
     border-radius: 0px 0px 10px 10px;
@@ -129,6 +129,7 @@ main ul.diferente {
 
 main ul > li {
     padding-bottom: 10px;
+    text-align: justify;
 }
 
 p a.link {
