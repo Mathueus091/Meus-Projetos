@@ -62,7 +62,7 @@ main {
     margin: auto;
     background-color: white;
     padding: 20px;
-    min-width: 200px;
+    min-width: 100px;
     max-width: 1200px;
     margin-bottom: 50px;
     border-radius: 0px 0px 10px 10px;
@@ -115,11 +115,7 @@ main ul.img02 {
 }
 
 main picture > img {
-    display: block;
-    min-width: 200px;
-    max-width: 400px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 50%;
 }
 
 main ul.diferente {
