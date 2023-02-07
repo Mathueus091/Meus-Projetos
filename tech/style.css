@@ -62,7 +62,7 @@ main {
     min-width: 400px;
     max-width: 1100px;
     margin: auto;
-    padding: 0px 40px 40px 40px;
+    padding: 0px 30px 30px 30px;
     text-align: justify;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.233);
@@ -88,10 +88,11 @@ main p {
 }
 
 main ul.img1 {
-    background: #c4c466 url(imgs/imagem03.jpg) center top no-repeat fixed;
+    background: #c4c466 url(imgs/imagem03.jpg) center center no-repeat fixed;
     list-style-position: inside;
     border-radius: 20px 0px;
     height: 200px;
+    margin: 20px 0px 20px;
     padding: 20px 0px 0px 30px;
 }
 
@@ -102,9 +103,25 @@ main ul > li {
     line-height: 2em;
 }
 
-main a, strong {
+main ul.img2 {
+    background: #c4c466 url(imgs/imagem01.jpg) center center no-repeat fixed;
+    list-style-position: inside;
+    border-radius: 20px 0px;
+    height: 350px;
+    padding: 20px 0px 0px 30px;
+}
+
+main img {
+    width: 60%;
+    margin: 0px 0px 20px 0px;
+}
+
+main strong {
     color: var(--cor1);
-    font-weight: bolder;
+}
+
+main a {
+    color: black;
     text-decoration: none;
 }
 
